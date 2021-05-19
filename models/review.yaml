@@ -1,0 +1,7 @@
+title: review
+type: object
+x-tags:
+  - review
+properties:
+  id:
+    type: string
