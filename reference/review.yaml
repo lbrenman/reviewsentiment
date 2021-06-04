@@ -18,12 +18,7 @@ paths:
         '200':
           description: OK
           schema:
-            type: object
-            properties:
-              success:
-                type: string
-              message:
-                type: string
+            $ref: ../models/response.yaml
       description: Create review
       parameters:
         - in: body
