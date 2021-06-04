@@ -3,7 +3,11 @@ type: object
 x-tags:
   - review
 properties:
-  review:
-    type: string
   clientid:
     type: string
+  title:
+    type: string
+  review:
+    type: string
+  numstars:
+    type: number
