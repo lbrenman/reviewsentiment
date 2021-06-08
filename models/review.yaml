@@ -11,3 +11,5 @@ properties:
     type: string
   numstars:
     type: number
+  productid:
+    type: string
