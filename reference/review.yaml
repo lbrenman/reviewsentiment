@@ -42,5 +42,3 @@ securityDefinitions:
     type: apiKey
     in: header
     name: l87iUwdO54tIelwH+jcc0vi9gLoYkCha
-security:
-  - apikey: []
