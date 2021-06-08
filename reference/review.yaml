@@ -8,7 +8,7 @@ info:
   description: Post review with sentiment
 host: 796a75fa3bf8.ngrok.io
 schemes:
-  - http
+  - https
 produces:
   - application/json
 consumes:
