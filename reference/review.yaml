@@ -31,16 +31,15 @@ paths:
             $ref: ../models/review.yaml
       tags:
         - Review
-      security:
-        - apikey: []
 definitions: {}
 tags:
   - name: Review
 basePath: /api
 securityDefinitions:
   apikey:
-    name: l87iUwdO54tIelwH+jcc0vi9gLoYkCha
+    name: apikey
     type: apiKey
     in: header
+    description: ''
 security:
   - apikey: []
