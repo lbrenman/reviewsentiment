@@ -35,4 +35,10 @@ definitions: {}
 tags:
   - name: Review
 basePath: /api
-securityDefinitions: {}
+securityDefinitions:
+  apikey:
+    name: l87iUwdO54tIelwH+jcc0vi9gLoYkCha
+    type: apiKey
+    in: query
+security:
+  - apikey: []
