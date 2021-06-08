@@ -6,7 +6,7 @@ info:
     name: Leor Brenman
     email: lbrenman99@hotmail.com
   description: Post review with sentiment
-host: 796a75fa3bf8.ngrok.io
+host: c620371127fa.ngrok.io
 schemes:
   - https
 produces:
