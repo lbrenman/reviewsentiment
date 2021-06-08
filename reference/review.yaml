@@ -37,7 +37,7 @@ tags:
   - name: Review
 basePath: /api
 securityDefinitions:
-  apikey:
+  APIKey:
     name: l87iUwdO54tIelwH+jcc0vi9gLoYkCha
     type: apiKey
     in: query
