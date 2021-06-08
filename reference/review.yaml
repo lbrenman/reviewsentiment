@@ -31,6 +31,8 @@ paths:
             $ref: ../models/review.yaml
       tags:
         - Review
+      security:
+        - apikey: []
 definitions: {}
 tags:
   - name: Review
@@ -39,6 +41,6 @@ securityDefinitions:
   apikey:
     name: l87iUwdO54tIelwH+jcc0vi9gLoYkCha
     type: apiKey
-    in: query
+    in: header
 security:
   - apikey: []
