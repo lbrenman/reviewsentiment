@@ -6,9 +6,9 @@ info:
     name: Leor Brenman
     email: lbrenman99@hotmail.com
   description: Post review with sentiment
-host: c620371127fa.ngrok.io
+host: 'localhost:8080'
 schemes:
-  - https
+  - http
 produces:
   - application/json
 consumes:
