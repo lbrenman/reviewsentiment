@@ -44,3 +44,4 @@ securityDefinitions:
     description: ''
 security:
   - apikey: []
+basePath: /api
