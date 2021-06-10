@@ -29,8 +29,6 @@ paths:
           name: body
           schema:
             $ref: ../models/review.yaml
-        - type: string
-          in: header
       tags:
         - Review
     parameters: []
