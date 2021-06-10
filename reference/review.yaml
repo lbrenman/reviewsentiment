@@ -14,7 +14,7 @@ produces:
 consumes:
   - application/json
 paths:
-  /review:
+  /api/review:
     post:
       summary: ''
       operationId: post-review
@@ -29,12 +29,14 @@ paths:
           name: body
           schema:
             $ref: ../models/review.yaml
+        - type: string
+          in: header
       tags:
         - Review
+    parameters: []
 definitions: {}
 tags:
   - name: Review
-basePath: /api
 securityDefinitions:
   apikey:
     name: apikey
