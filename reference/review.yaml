@@ -14,7 +14,7 @@ produces:
 consumes:
   - application/json
 paths:
-  /review:
+  /api/review:
     post:
       summary: ''
       operationId: post-review
