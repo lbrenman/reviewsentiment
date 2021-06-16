@@ -6,7 +6,7 @@ info:
     name: Leor Brenman
     email: lbrenman99@hotmail.com
   description: Post review with sentiment
-host: 'localhost:8080'
+host: a4f11e8d58f0edeac2c5b589b508f5b2d8945234.cloudapp-enterprise.appcelerator.com
 schemes:
   - http
   - https
@@ -44,3 +44,4 @@ securityDefinitions:
     description: ''
 security:
   - apikey: []
+basePath: /api
